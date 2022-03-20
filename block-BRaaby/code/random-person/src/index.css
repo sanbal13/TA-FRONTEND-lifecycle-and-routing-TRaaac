@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*************************** Custom Styles begins here ********************/
+html {
+    font-size: 16px;
+}
+body {
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+/**************** Flex ****************/
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-20 {
+    flex: 0 1 20%;
+}
+.flex-30 {
+    flex: 0 1 30%;
+}
+.flex-45 {
+    flex: 0 1 45%;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/************** Headings **************/
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+h4 {
+    font-size: 1.4rem;
+}
+
+/************** Header **************/
+
+
+/************** Main **************/
+body {
+    background: linear-gradient(to bottom,#2B2D31 50%, #EFF6FE 50%);
+    height: 78.5vh;
+}
+.card {
+    background: linear-gradient(to bottom,#ECEDFC 25%, #FFFFFF 25%);
+    box-shadow: 1px 1px 10px grey;
+    width: 1000px;
+    height: 600px;
+    margin: 200px auto;
+    padding: 1rem;
+    background-color: aqua;
+    border-radius: .5rem;
+}
+/* User Card */
+.profile-image {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem auto;
+    border: .3rem solid #fff;
+    box-shadow: 1px 1px 1rem grey;
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+} 
+
+.icon-links {
+    font-size: 2rem;
+    color: #5D7391;
+    width: 50%;
+    margin: 0 auto;
+}
+.icon {
+    cursor: pointer;
+}
+.description {
+    text-align: center;
+    margin: 2rem 0;
+}
+.description h4 {
+    color: #3F585A;
+}
+.description h3 {
+    color: #192B33;
+}
+button {
+    cursor: pointer;
+    display: block;
+    margin: 2rem auto;
+    padding: .5rem 1rem;
+    letter-spacing: 1px;
+}
+
+
+/************** Footer **************/
